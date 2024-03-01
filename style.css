@@ -7,9 +7,9 @@
     --verde: #084A56;
     --verde-claro: #6FC9C0;
     --verde-limao: #6FFF57;
-    --botao-inativo: rgba(8, 74, 86, 0.5);
+    --botao-inativo: rgba(9, 218, 255, 0.5);
     --botao-ativo: rgba(26, 95, 31, 0.795);
-    --texto-fundo: rgba(226, 164, 49, 0.3);
+    --texto-fundo: rgba(158, 156, 187, 0.3);
 }
 body{
     background-color: var(--cor-de-fundo);
