@@ -58,7 +58,7 @@ body{
  }
 .ativo{
     background-color: var (--botao-ativo);
-    borer-bottom: 4px soli var (--verde);
+    border-bottom: 4px solid var (--verde);
 }
 .aba-textos{
     background-color: var (--cor-de-fundo);
