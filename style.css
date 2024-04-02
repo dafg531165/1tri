@@ -64,12 +64,12 @@ body {
 }
 
 .ativo {
-    background-color: var(--botao-ativo);
+    background-color: red;
     border-bottom: 4px solid var (--verde);
 }
 
 .aba-textos {
-    background-color: var(--cor-de-fundo);
+    background-color:rgba(26, 95, 31, 0.795);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
@@ -89,7 +89,7 @@ body {
 
 .aba-conteudo-titulo-secundario {
     text-align: center;
-    color: var(--cor-rosa);
+    color: pink;
     text-transform: uppercase;
 }
 
