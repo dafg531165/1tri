@@ -1,5 +1,5 @@
 const botoes = document.querySelectorAll(".botao");
-const botoes = document.querySelectorAll(".aba-conteudo")
+const texto = document.querySelectorAll(".aba-conteudo")
 for (let i = 0 < botoes.lenght; i++){
   botoes[i].onlick = function (){
     for (let j = 0; j < botoes.lenght; j++){
