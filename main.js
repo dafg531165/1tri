@@ -12,7 +12,18 @@ for (let i = 0; i<botoes.length; i++) {
     }
 }
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2024-12-01");
-let tempoAtual = new Date();
+const tempoObjetivo1 = new Date("2024-12-01TOO:00:00");
 
-contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+function calculaTempo(tempoObjetivo1){
+  let tempoAtual = new Date();
+  contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+  let segundos = Math.floor(tempoFinal / 1000);
+  let minutos = Math.floor(segundos / 60);
+  let horas = Math.floor(minutos / 60);
+  let dias = Math.floor(horas / 24);
+
+segundos %=60;
+minutos %= 60;
+horas %= 24;
+  return dias + "dias" + horas + "horas" + minutos + segundos + "segundos";
+}
